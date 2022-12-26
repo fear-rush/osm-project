@@ -7,12 +7,12 @@
     <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <link rel="stylesheet" href="css/leaflet.css">
+    <link rel="stylesheet" href="css/leaflet.css"
     <link rel="stylesheet" href="css/qgis2web.css">
     <link rel="stylesheet" href="css/fontawesome-all.min.css">
     <link rel="stylesheet" href="css/leaflet-control-geocoder.Geocoder.css">
     <!-- Leaflet Control Layer Tree CSS -->
-    <link rel="stylesheet" href="./L.Control.Layers.Tree.css" crossorigin="" />
+    <link rel="stylesheet" href="./L.Control.Layers.Tree.css"/>
     <style>
         html,
         body,
@@ -1042,7 +1042,7 @@
             //     ]
         };
 
-        var ctl = L.control.layers.tree(baseTree, null,
+        var ctl = L.control.layers.tree(baseTree, "127.0.0.1",
             {
                 namedToggle: true,
                 collapseAll: '',
